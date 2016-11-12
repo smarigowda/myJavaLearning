@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hamburger/Hamburger.iml" filepath="$PROJECT_DIR$/Hamburger/Hamburger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Polymorphysim/Polymorphysim.iml" filepath="$PROJECT_DIR$/../Polymorphysim/Polymorphysim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PolymorphysmChallenge.iml" filepath="$PROJECT_DIR$/PolymorphysmChallenge.iml" />
+    </modules>
+  </component>
+</project>
