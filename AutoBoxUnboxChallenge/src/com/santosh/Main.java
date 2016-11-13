@@ -22,6 +22,12 @@ public class Main {
         bank.addCustomer(branchName2, "Roopa", 50.5);
         bank.addCustomer(branchName2, "Sukruthi", 50.5);
 
+        bank.listCustomers(branchName2, false);
+
+        bank.addBranch("Melbourne");
+        if(!bank.addCustomer("Melbourne", "Brian", 5.56)) {
+            System.out.println("Error.. branch does not exist");
+        }
 
     }
 }
