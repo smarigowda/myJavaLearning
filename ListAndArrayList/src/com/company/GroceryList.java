@@ -6,6 +6,10 @@ public class GroceryList {
 
     private ArrayList<String> groceryList = new ArrayList<>();
 
+    public ArrayList<String> getGroceryList() {
+        return groceryList;
+    }
+
     public void addGroceryItem(String item) {
         groceryList.add(item);
     }

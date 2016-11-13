@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -39,6 +40,9 @@ public class Main {
                     quit = true;
                     System.out.println("exiting...");
                     break;
+                case 7 :
+                    processArrayList();
+                    break;
             }
         }
 
@@ -53,6 +57,7 @@ public class Main {
         System.out.println("\t 4 - remove an item");
         System.out.println("\t 5 - search an item");
         System.out.println("\t 6 - quit");
+        System.out.println("\t 7 - process array list");
     }
 
     public static void addItem() {
@@ -83,4 +88,15 @@ public class Main {
             System.out.println("item does not exist in our list");
         }
     }
+
+    public static void processArrayList() {
+        ArrayList<String> newArray = new ArrayList<>();
+        newArray.addAll(glist.getGroceryList());
+
+        ArrayList<String> nextArray = new ArrayList<>(glist.getGroceryList());
+
+        String[] myArray = new String[glist.getGroceryList().size()];
+        myArray = glist.getGroceryList().toArray(myArray);
+    }
+
 }
