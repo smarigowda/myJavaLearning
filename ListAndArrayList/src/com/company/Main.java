@@ -97,6 +97,7 @@ public class Main {
 
         String[] myArray = new String[glist.getGroceryList().size()];
         myArray = glist.getGroceryList().toArray(myArray);
+
     }
 
 }
