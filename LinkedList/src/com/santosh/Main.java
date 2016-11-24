@@ -53,7 +53,8 @@ public class Main {
                 iter.add(newCity);
                 return true;
             } else if(comparison < 0){
-
+//                return true;
+                continue;
             }
         }
         iter.add(newCity);
